@@ -1,0 +1,119 @@
+
+
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .header_naber .text_cuption .text_cuption_text h2 {
+      font-size: 27px;
+  }
+  .header_naber .sreach {
+    top: 281px !important;
+}
+    .services_area {
+      overflow: hidden;
+  }
+  .header_naber .navbar-nav li a {
+    padding: 15px !important;
+    text-align: center;
+}
+
+.feature_item {
+  width: 100%;
+}
+
+.featured_area_section .feature_area_text .features_list li span {
+  padding-left: 0px;
+}
+
+.featured_area_section .feature_area_text {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.featured_area_section .feature_area_img img {
+  width: 100%;
+}
+
+.project_area .project_item {
+  width: 100%;
+  margin: 0 1% 48px;
+  justify-content: center;
+  flex-direction: column
+}
+
+.services_area .service_contain {
+  width: 100%;
+}
+
+.feedback_area .single_feedback {
+  max-width: 100%;
+}
+
+.pricing_area .single_box_pricing {
+  width: 100%;
+  text-align: center;
+}
+
+.pricing_area .single_box_pricing .pricing-features {
+  max-width: 233px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.Footer .single_footer_widged h3::before {
+  left: 45%;
+}
+
+.Footer {
+  text-align: center;
+}
+
+.copyright-area ul {
+  text-align: center;
+}
+
+.copyright-area {
+  text-align: center;
+}
+
+.featured_area_section .feature_area_text .features_list {
+  max-width: 382px;
+}
+  }
